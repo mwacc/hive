@@ -72,6 +72,7 @@ field
 find_in_set
 first_value
 floor
+format_date
 format_number
 from_unixtime
 from_utc_timestamp
@@ -231,6 +232,7 @@ e
 encode
 explode
 first_value
+format_date
 from_unixtime
 in_file
 inline
@@ -270,6 +272,7 @@ POSTHOOK: type: SHOWFUNCTIONS
 date_add
 date_sub
 datediff
+format_date
 to_date
 PREHOOK: query: SHOW FUNCTIONS '***'
 PREHOOK: type: SHOWFUNCTIONS

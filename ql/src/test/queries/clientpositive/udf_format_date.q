@@ -1,0 +1,2 @@
+DESCRIBE FUNCTION format_date;
+DESCRIBE FUNCTION EXTENDED format_date;

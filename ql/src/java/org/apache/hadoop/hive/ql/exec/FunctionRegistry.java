@@ -195,6 +195,7 @@ public final class FunctionRegistry {
     registerUDF("from_unixtime", UDFFromUnixTime.class, false);
     registerUDF("to_date", UDFDate.class, false);
     registerUDF("weekofyear", UDFWeekOfYear.class, false);
+    registerUDF("format_date", UDFFormatDate.class, false);
 
     registerUDF("date_add", UDFDateAdd.class, false);
     registerUDF("date_sub", UDFDateSub.class, false);

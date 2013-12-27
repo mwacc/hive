@@ -1,0 +1,13 @@
+PREHOOK: query: DESCRIBE FUNCTION format_date
+PREHOOK: type: DESCFUNCTION
+POSTHOOK: query: DESCRIBE FUNCTION format_date
+POSTHOOK: type: DESCFUNCTION
+format_date(date, [from_format], to_format) - convert datetime presentation from one format to another
+PREHOOK: query: DESCRIBE FUNCTION EXTENDED format_date
+PREHOOK: type: DESCFUNCTION
+POSTHOOK: query: DESCRIBE FUNCTION EXTENDED format_date
+POSTHOOK: type: DESCFUNCTION
+format_date(date, [from_format], to_format) - convert datetime presentation from one format to another
+Example:
+  > SELECT format_date('2013-12-23 20:13:45.0', 'yyyy-MM-dd HH:mm:ss.S', 'yyyy/MM/dd') FROM src LIMIT 1;
+  '2013/12/23'
